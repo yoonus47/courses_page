@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/* --------------Nav Bar Start------------- */
+
+nav{
+    background: #0b0c0c;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    padding: 0 20px;  
+  }
+  
+  
+  nav form{
+    display: flex;
+    height: 40px;
+    padding: 2px;
+    background: #1e232b;
+    min-width: 18%!important;
+    border-radius: 2px;
+    border: 1px solid rgba(155,155,155,0.2);
+    width: 100%;
+  }
+  nav form .search-data{
+    width: 100%;
+    height: 100%;
+    padding: 0 10px;
+    color: #fff;
+    font-size: 17px;
+    border: none;
+    font-weight: 500;
+    background: black;
+  }
+  
+  nav form .search-data:hover{
+    background: white;
+    color: black;
+  }
+  
+  nav form button{
+    padding: 0 15px;
+    color: #fff;
+    font-size: 17px;
+    background:black;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  nav form button:hover{
+    background: white;
+    color: black;
+  }
+  
+  nav .menu-icon,
+  nav .cancel-icon,
+  nav .search-icon{
+    width: 100%;
+    text-align: center;
+    margin: 0 50px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+  }
+
+
+/* -------------Navbar Ends----------------- */
+
+
+body {
+    font-family: sans-serif;
+    background: #0b0c0c;
+    min-height: 100vh;
+
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    background: #fff;
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: none;
+    margin: 15% 10%;
+    transition: all 0.2s ease-in-out;
+}
+.card:hover {
+      box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1), 0px 6px 12px rgba(0, 0, 0, 0.1),
+        1px 3px 15px rgba(0, 0, 0, 0.1);
+      transform: translateY(5px);
+}
+  
+.image-box {
+      height: 30vh;
+      border-radius: inherit;
+      border: none;
+      background: #70bee6;
+}  
+img {
+        width: 100%;
+        height: 100%;
+}  
+.card-content {
+      padding: 1.3rem;
+}
+.tag {
+      border: 1px solid rgb(52, 47, 47);
+      padding: 0.3rem 1rem;
+      text-transform: capitalize;
+      font-size: 0.8rem;
+      border-radius: 5px;
+}
+.card-title {
+      margin-top: 1rem;
+      font-size: 1.1rem;
+}
+.sub-title {
+      color: gray;
+}
+  
+.price-box {
+      display: flex;
+      margin-top: 0.6rem;
+      gap: 1rem;
+}  
+p {
+        color: black;
+        font-weight: bold;
+}
+  
+
+.btn {
+      margin-top: 1rem;
+      padding: 0.7rem 1rem;
+      width: 100%;
+      border-radius: 5px;
+      text-transform: capitalize;
+      background: none;
+      border: 2px solid #1f2324;
+      transition: 0.3s ease;
+}  
+.btn:hover {
+        cursor: pointer;
+        background: rgb(59, 58, 58);
+        color: #fff;
+}
