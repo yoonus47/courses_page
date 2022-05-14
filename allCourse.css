@@ -1,18 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
 
+
+/*  #EDE6DB
+    #417D7A
+    #iD5C63
+    #1A3C40
+
+*/
 * {
     margin: 0;
+
     padding: 0;
     box-sizing: border-box;
     outline: none;
     font-family: 'Montserrat', sans-serif;
+    
 
 }
 
 /* --------------Nav Bar Start------------- */
 
 nav{
-    background: #0b0c0c;
+    background: #EDE6DB;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -20,7 +29,9 @@ nav{
     height: 70px;
     padding: 0 20px;  
   }
-  
+  p{
+    color:#417D7A
+  }
   
   nav form{
     display: flex;
@@ -28,38 +39,38 @@ nav{
     padding: 2px;
     background: #1e232b;
     min-width: 18%!important;
-    border-radius: 2px;
-    border: 1px solid rgba(155,155,155,0.2);
+
+  
     width: 100%;
   }
   nav form .search-data{
     width: 100%;
     height: 100%;
     padding: 0 10px;
-    color: #fff;
+    color: #1A3C40;
     font-size: 17px;
     border: none;
     font-weight: 500;
-    background: black;
+    background: #EDE6DB;
   }
   
   nav form .search-data:hover{
-    background: white;
-    color: black;
+    background: #1A3C40;
+    color: #EDE6DB;
   }
   
   nav form button{
     padding: 0 15px;
-    color: #fff;
+    color: #1A3C40;
     font-size: 17px;
-    background:black;
+    background: #EDE6DB;
     border: none;
-    border-radius: 2px;
+   
     cursor: pointer;
   }
   nav form button:hover{
-    background: white;
-    color: black;
+    background: #1A3C40;
+    color: #EDE6DB;
   }
   
   nav .menu-icon,
@@ -80,9 +91,9 @@ nav{
 
 body {
     font-family: sans-serif;
-    background: #0b0c0c;
+    background: #EDE6DB;
     min-height: 100vh;
-
+    
     justify-content: center;
     align-items: center;
 }
@@ -105,7 +116,8 @@ body {
       height: 30vh;
       border-radius: inherit;
       border: none;
-      background: #70bee6;
+      background: #EDE6DB;
+      
 }  
 img {
         width: 100%;
@@ -124,6 +136,7 @@ img {
 .card-title {
       margin-top: 1rem;
       font-size: 1.1rem;
+      color: #1A3C40;
 }
 .sub-title {
       color: rgb(68, 65, 65);
@@ -148,13 +161,13 @@ p {
       border-radius: 5px;
       text-transform: capitalize;
       background: none;
-      border: 2px solid #1f2324;
+      border: 2px solid #1A3C40;
       transition: 0.3s ease;
 }  
 .btn:hover {
         cursor: pointer;
-        background: rgb(59, 58, 58);
-        color: #fff;
+        background: #1A3C40;
+        color: #EDE6DB;
 }
 
 .norm{
@@ -175,17 +188,22 @@ p {
   height: 100%;
 }
 .mycolor{
-  color: antiquewhite;
+  color: #1D5C63;
 }
 .des-h2{
   padding: 1em;
   font-weight: bold;
+  color: #1D5C63;
+  
 }
 .des-h3{
   padding: 1em;
   font-weight: bold;
+  
+  color: #1A3C40;
 }
 .des-p{
   padding: 1em;
   font-weight: normal;
+  color: #417D7A;
 }
