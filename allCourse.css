@@ -126,7 +126,8 @@ img {
       font-size: 1.1rem;
 }
 .sub-title {
-      color: gray;
+      color: rgb(68, 65, 65);
+      font-weight: normal;
 }
   
 .price-box {
@@ -154,4 +155,37 @@ p {
         cursor: pointer;
         background: rgb(59, 58, 58);
         color: #fff;
+}
+
+.norm{
+  font-weight: lighter;
+  font-size: 0.8em;
+  color: rgb(101, 108, 108);
+  padding-top: 1em;
+}
+
+.mybox{
+  background-color: #70bee6;
+  height: 600px;
+  width: 100%;
+}
+
+.boximage{
+  width: 100%;
+  height: 100%;
+}
+.mycolor{
+  color: antiquewhite;
+}
+.des-h2{
+  padding: 1em;
+  font-weight: bold;
+}
+.des-h3{
+  padding: 1em;
+  font-weight: bold;
+}
+.des-p{
+  padding: 1em;
+  font-weight: normal;
 }
